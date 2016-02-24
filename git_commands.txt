@@ -1,0 +1,13 @@
+
+Checking the remote url of the git project:
+git remote -v
+
+Setting up new remote url:
+git remote add origin git@github.com:adityapn/common-commands.git
+
+Updating the remote url of existing git project:
+git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
+
+
+
+
