@@ -1,0 +1,19 @@
+Start docker daemon 
+In mac open docker-quickstart-terminal and use that terminal 
+
+Install docker image 
+docker pull <image_name> 
+
+Start the docker image 
+docker run --net="host" -it <image_name> bash 
+
+Images that are running 
+docker ps -l 
+
+Save docker image 
+docker commit <CONTAINER_ID>  <Image_name> 
+
+Ip of the address of the docker image 
+docker-machine ip default (Use that ip in browser to access the application and application should point to that docker ip)
+  
+   
